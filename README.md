@@ -7,3 +7,5 @@ Bienvenidos al repositorio de *Julio*. Aqui encontraras todos los ejercicios del
 - Ejercicios de CSS.
 
 - Ejercicios de JS.
+
+- Ejercicios de JQuery.
