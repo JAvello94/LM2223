@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Table>
+        <style>
+            table, th, td {
+                border: 2px solid black;
+            }
+        </style>
+        <tr style="background-color: blue;"><td style="color: white;" colspan="2"><img src="imagenes/laliga.png" width="50" alt="50"> Clasificación Laliga</td></tr>
+        <tr><td colspan="2">Temporada 2022-2023</td></tr>
+        <tr><td>Club</td><td>Puntos</td></tr>
+        <tr><td>1 <a href="https://www.fcbarcelona.es/es/" target="_blank" rel="noopener noreferrer"><img src="imagenes/Barcelona.png" alt="40" width="40"></a>Barcelona</td><td>22</td></tr>
+        <tr><td>2 <a href="https://www.realmadrid.com/en"> <img src="imagenes/Realmadrid.png" alt="40" width="40"></a>Real Madrid</td><td>22</td></tr>
+        <tr><td>3 <a href="https://www.athletic-club.eus/" target="_blank"><img src="imagenes/Athletic.png" alt="40" width="40"></a>Athletic</td><td>17</td></tr>
+        <tr><td>4 <a href="https://www.atleticodemadrid.com/" target="_blank"> <img src="imagenes/Atleticodemadrid.png" alt="40" width="40"></a>Atlético de Madrid</td><td>16</td></tr>
+    </Table>  
+</body>
+</html>
