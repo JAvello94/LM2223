@@ -16,8 +16,8 @@
   <input type="text" id="lname" name="lname" placeholder="Pérez"><br><br>
   <label for="email">Correo electrónico:</label>
   <input type="text" id="email" name="email" placeholder="fulanitoperez@..."><br><br>
-  <label for="email">Telefono:</label>
-  <input type="text" id="telefono" name="telefono" placeholder="954353456"><br><br>
+  <label for="telefono">Telefono:</label>
+  <input type="tel" id="telefono" name="telefono" placeholder="954353456"><br><br>
   <p><u> Sexo</u></p>
   <input type="radio" id="sexo" name="sexo" value="1" Sexo >
   <label for="Hombre">Hombre</label><br><br>
@@ -274,8 +274,11 @@
     <option value="ZW">Zimbabue</option>
     </select><br><br>
     <p><u>Describete a ti mismo</u></p>
-    <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea><br><br>
-  <input type="submit" value="Submit">
+    <textarea name="descripcion" id="descripcion" cols="50" rows="4"></textarea><br><br>
+  <p><u>Sube una foto tuya</u></p>
+    <input type="file" name="imagen">
+  <input type="submit" name="subir-imagen" value="Enviar imagen"><br><br>
+    <input type="submit" value="Submit">
 </form>
     
 </body>
