@@ -1,0 +1,15 @@
+.encabezados {
+    text-align: center;
+    color: blue;
+    font-size: 200px;
+}
+
+.parrafos {
+    margin-left: 20px;
+    color: yellow;
+    text-align: left;
+}
+
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/676/573/original/green-gradient-plane-background.jpg);
+}
