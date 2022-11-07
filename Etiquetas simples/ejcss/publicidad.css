@@ -1,0 +1,87 @@
+.texto{
+    text-align: justify;
+}
+
+img{
+    position: fixed;
+    top: -20px;
+    left: -400px;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+#caja1 {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    color: white;
+    text-align: justify;
+    border: dotted blue;
+    z-index: -1;
+    position: relative;
+    top: 100px;
+}
+
+#caja2 {
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+    color: black;
+    text-align: justify;
+    border: dashed green;
+    z-index: -1;
+    position: relative;
+    top: 100px;
+}
+
+#caja3 {
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    color: black;
+    text-align: justify;
+    border: dashed lightcoral;
+    position: relative;
+    z-index: -1;
+    top: -713px;
+    left: 413px;
+}
+
+#caja4 {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(12, 240, 133);
+    color: black;
+    text-align: justify;
+    border: solid rgb(4, 207, 243);
+    position: relative;
+    z-index: -1;
+    top: -713px;
+    left: 413px;
+}
+
+#caja5 {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(12, 11, 12);
+    color: rgb(248, 246, 246);
+    text-align: justify;
+    border: solid rgb(230, 8, 38);
+    position: relative;
+    z-index: -1;
+    top: -1526px;
+    left: 826px;
+}
+
+#caja6 {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(212, 29, 212);
+    color: rgb(248, 246, 246);
+    text-align: justify;
+    border: dotted rgb(208, 230, 8);
+    position: relative;
+    z-index: -1;
+    top: -1526px;
+    left: 826px;
+}
