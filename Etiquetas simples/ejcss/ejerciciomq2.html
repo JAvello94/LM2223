@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+        background-color: lightpink;
+    }
+.wrapper {overflow: visible;}
+
+#main {margin-left: 4px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+#leftsidebar {
+  float: none;
+  width: auto;
+}
+
+#menulist {
+  margin: 0;
+  padding: 0;
+}
+
+.menuitem {
+  background: gray;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 4px;
+  list-style-type: none;
+  margin: 4px;
+  padding: 2px;
+}
+
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: right;}
+  #main {margin-right: 220px;}
+}
+
+@media print {
+    body {
+        background-color: white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #leftsidebar {
+        display: block;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+  <div id="leftsidebar">
+    <ul id="menulist">
+      <li class="menuitem">W3Schools</li>
+      <li class="menuitem">Aprende HTML</li>
+      <li class="menuitem">Aprende CSS</li>
+      <li class="menuitem">Referencia Mozilla</li>
+      <li class="menuitem">Trucos CSS</li>
+    </ul>
+  </div>
+  
+  <div id="main">
+    <h1>Aprende HTML y CSS</h1>
+    <p>Redimensiona la pantalla para visualizarla en diferentes tamaños. Observa como cambia el menú para adaptarse a los diferentes tamaños de pantalla.</p>
+    <p>Pulsa imprimir la página para ver la previsualización, observa cómo cambia la tipografía y desaparece el menú.</p>
+  </div>
+</div>
+
+</body>
+</html>
