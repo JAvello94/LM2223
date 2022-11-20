@@ -1,0 +1,45 @@
+.flex-container {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    
+  }
+  .flex-container > div {
+    margin: 0px;
+    padding: 20px;
+    font-size: 30px;
+    height: 700px;
+    color: white;
+  }
+  .c1 {
+    background-color: aqua;
+  }
+  .c2 {
+    background-color: blueviolet;
+  }
+  .c3 {
+    background-color: brown;
+  }
+  .c4 {
+    background-color: yellow;
+  }
+  .c5 {
+    background-color: green;
+  }
+  .c6 {
+    background-color: palevioletred;
+  }
+  .c7 {
+    background-color: red;
+  }
+  .c8 {
+    background-color: grey;
+  }
+  .c9 {
+    background-color: black;
+  }
+  .c10 {
+    background-color: purple;
+  }
