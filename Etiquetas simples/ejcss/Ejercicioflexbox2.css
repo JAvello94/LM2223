@@ -1,7 +1,7 @@
 .flex-container {
     display: flex;
     background-color: white;
-    flex-direction: row;
+    flex-direction: column-reverse;
     width: auto;
     height: auto;
     
@@ -9,8 +9,9 @@
   .flex-container > div {
     padding: 20px;
     font-size: 30px;
-    height: 695px;
+    height: 40px;
     color: white;
+    text-align: center;
   }
   .c1 {
     background-color: aqua;
